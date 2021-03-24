@@ -4,8 +4,7 @@ This project is a simple compiler that uses syntax rules (seen below) to parse a
 
 Syntax Rules
 
-<Rat20F>  ::=  <Opt Function Definitions>  
-                         %%  <Opt Declaration List> <Statement List>    
+<Rat20F>  ::=  <Opt Function Definitions> %%  <Opt Declaration List> <Statement List>       
 <Opt Function Definitions> ::= <Function Definitions> | <Empty>
 <Function Definitions>  ::= <Function> < Function Definitions Prime>
 <Function Definitions Prime>  ::= <Function Definitions> | <Empty>  
